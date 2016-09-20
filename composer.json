@@ -1,0 +1,21 @@
+{
+    "name": "hexpang/movie-robot-bttt8",
+    "description": "Movie Robot For Bttt8",
+    "type": "library",
+    "require": {
+        "hexpang/movie-robot-interface": "dev-master",
+        "simple-html-dom/simple-html-dom": "^1.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "HexPang",
+            "email": "hexpang@jabstruse.com"
+        }
+    ],
+    "autoload": {
+         "psr-4": {
+            "hexpang\\": "./src/hexpang"
+         }
+     }
+}
